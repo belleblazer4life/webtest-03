@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:firacode;
+  color:#dcdcdc;
+  background-color: #2a2a3b;
+}
+
+img{
+  padding:0px;
+  margin: 0px;
+}
+
+.r1 h2{
+  margin:auto 0px auto 5px;
+}
+
+.parent{
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+}
+.r1{
+  padding:0px;
+  border:1px solid black;
+  display:flex;
+}
+.r2{
+  border:0px solid black;
+  height:100%;
+  display: flex;
+  flex-direction:row;
+}
+.r3{
+  margin-top:auto;
+  padding:5px;
+  border:1px solid black;
+}
+.r2c1{
+  flex:1;
+  padding:10px;
+  border:1px solid black;
+}
+
+.r2c2{
+  flex:3;
+  padding:10px;
+  border:1px solid black;
+}
